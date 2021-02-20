@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-20T16:35:13.208Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36 OPR/74.0.3911.107" etag="WBVt9PPoM9ALYPH-QHpC" version="14.4.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-02-20T17:13:41.892Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36 OPR/74.0.3911.107" etag="-YmH54R6zRwgDllFodxt" version="14.4.2" type="github" pages="4">
   <diagram id="FHVm75umyY4icCTV_xUv" name="Task 1">
     <mxGraphModel dx="1422" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -171,6 +171,81 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="420" y="440" as="sourcePoint" />
             <mxPoint x="470" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ATyAGeuZUpYh1z5rccBX" name="Page-4">
+    <mxGraphModel dx="1341" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="NAhHrHzFkJzL0fu4cdfL-0" />
+        <mxCell id="NAhHrHzFkJzL0fu4cdfL-1" parent="NAhHrHzFkJzL0fu4cdfL-0" />
+        <mxCell id="NAhHrHzFkJzL0fu4cdfL-2" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="NAhHrHzFkJzL0fu4cdfL-1">
+          <mxGeometry x="354" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NAhHrHzFkJzL0fu4cdfL-3" value="Ввод числовых границ" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="NAhHrHzFkJzL0fu4cdfL-1">
+          <mxGeometry x="354" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NAhHrHzFkJzL0fu4cdfL-5" value="Ввод символьных границ" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="NAhHrHzFkJzL0fu4cdfL-1">
+          <mxGeometry x="332" y="260" width="164" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NAhHrHzFkJzL0fu4cdfL-6" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="NAhHrHzFkJzL0fu4cdfL-1" source="NAhHrHzFkJzL0fu4cdfL-3" target="NAhHrHzFkJzL0fu4cdfL-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="440" as="sourcePoint" />
+            <mxPoint x="440" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NAhHrHzFkJzL0fu4cdfL-9" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="NAhHrHzFkJzL0fu4cdfL-1" source="NAhHrHzFkJzL0fu4cdfL-5" target="NAhHrHzFkJzL0fu4cdfL-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="440" as="sourcePoint" />
+            <mxPoint x="414" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NAhHrHzFkJzL0fu4cdfL-10" value="&lt;span&gt;&amp;nbsp;Числовые и символьные границы введены правильно?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="NAhHrHzFkJzL0fu4cdfL-1">
+          <mxGeometry x="246" y="360" width="336" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NAhHrHzFkJzL0fu4cdfL-11" value="&lt;font style=&quot;font-size: 19px&quot;&gt;Нет&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="NAhHrHzFkJzL0fu4cdfL-1">
+          <mxGeometry x="496" y="360" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NAhHrHzFkJzL0fu4cdfL-12" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="NAhHrHzFkJzL0fu4cdfL-1" target="NAhHrHzFkJzL0fu4cdfL-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="586" y="410" as="sourcePoint" />
+            <mxPoint x="636" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="410" />
+              <mxPoint x="650" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NAhHrHzFkJzL0fu4cdfL-13" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Да&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="NAhHrHzFkJzL0fu4cdfL-1">
+          <mxGeometry x="292" y="360" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NAhHrHzFkJzL0fu4cdfL-14" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="NAhHrHzFkJzL0fu4cdfL-1" source="NAhHrHzFkJzL0fu4cdfL-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="410" as="sourcePoint" />
+            <mxPoint x="180" y="525" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="180" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NAhHrHzFkJzL0fu4cdfL-17" value="Вывод числа, вещественного числа и символа" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="NAhHrHzFkJzL0fu4cdfL-1">
+          <mxGeometry x="120" y="525" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NAhHrHzFkJzL0fu4cdfL-18" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="NAhHrHzFkJzL0fu4cdfL-1" source="NAhHrHzFkJzL0fu4cdfL-2" target="NAhHrHzFkJzL0fu4cdfL-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="480" as="sourcePoint" />
+            <mxPoint x="390" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NAhHrHzFkJzL0fu4cdfL-22" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="NAhHrHzFkJzL0fu4cdfL-1">
+          <mxGeometry x="126" y="650" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NAhHrHzFkJzL0fu4cdfL-23" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="NAhHrHzFkJzL0fu4cdfL-1" source="NAhHrHzFkJzL0fu4cdfL-17" target="NAhHrHzFkJzL0fu4cdfL-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="680" as="sourcePoint" />
+            <mxPoint x="450" y="630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
