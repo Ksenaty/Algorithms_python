@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2021-02-20T10:32:43.985Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36 OPR/74.0.3911.107" etag="Amz4zJzws2tKGQuoLo2P" version="14.4.2" type="github">
-  <diagram id="FHVm75umyY4icCTV_xUv" name="Page-1">
+<mxfile host="app.diagrams.net" modified="2021-02-20T16:15:44.061Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36 OPR/74.0.3911.107" etag="vWqCTHQDeQ4zDfNJNNYT" version="14.4.2" type="github" pages="3">
+  <diagram id="FHVm75umyY4icCTV_xUv" name="Task 1">
     <mxGraphModel dx="1422" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -57,6 +57,74 @@
             <mxPoint x="380" y="710" as="sourcePoint" />
             <mxPoint x="430" y="660" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="3vXUBq8MAoTwdj5anKFW" name="Task2">
+    <mxGraphModel dx="1422" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="DbEJ2VAX_90w69qis_37-0" />
+        <mxCell id="DbEJ2VAX_90w69qis_37-1" parent="DbEJ2VAX_90w69qis_37-0" />
+        <mxCell id="8Sud0amF9RJ9a7JqX-R7-0" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="DbEJ2VAX_90w69qis_37-1">
+          <mxGeometry x="360" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8Sud0amF9RJ9a7JqX-R7-1" value="Вводим числа 5 и 6&lt;br&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="DbEJ2VAX_90w69qis_37-1">
+          <mxGeometry x="337" y="160" width="166" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Sud0amF9RJ9a7JqX-R7-2" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="DbEJ2VAX_90w69qis_37-1" source="8Sud0amF9RJ9a7JqX-R7-0" target="8Sud0amF9RJ9a7JqX-R7-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="440" as="sourcePoint" />
+            <mxPoint x="440" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Sud0amF9RJ9a7JqX-R7-3" value="Выполняем логические операции И, ИЛИ с числами 5 и 6" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DbEJ2VAX_90w69qis_37-1">
+          <mxGeometry x="354" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Sud0amF9RJ9a7JqX-R7-4" value="" style="endArrow=classic;html=1;exitX=0.464;exitY=1.017;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="DbEJ2VAX_90w69qis_37-1" source="8Sud0amF9RJ9a7JqX-R7-1" target="8Sud0amF9RJ9a7JqX-R7-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="460" as="sourcePoint" />
+            <mxPoint x="450" y="410" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Sud0amF9RJ9a7JqX-R7-5" value="Выполняем&lt;br&gt;&amp;nbsp;&lt;span style=&quot;color: rgb(44 , 45 , 48) ; font-family: &amp;#34;roboto&amp;#34; , &amp;#34;san francisco&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; ; font-size: 15px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;над числом 5 побитовый сдвиг вправо и влево на два знака&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DbEJ2VAX_90w69qis_37-1">
+          <mxGeometry x="301" y="360" width="226" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Sud0amF9RJ9a7JqX-R7-6" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="DbEJ2VAX_90w69qis_37-1" source="8Sud0amF9RJ9a7JqX-R7-3" target="8Sud0amF9RJ9a7JqX-R7-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="200" as="sourcePoint" />
+            <mxPoint x="320" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Sud0amF9RJ9a7JqX-R7-7" value="Выводим полученный результат" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="DbEJ2VAX_90w69qis_37-1">
+          <mxGeometry x="354" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Sud0amF9RJ9a7JqX-R7-8" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="DbEJ2VAX_90w69qis_37-1" source="8Sud0amF9RJ9a7JqX-R7-5" target="8Sud0amF9RJ9a7JqX-R7-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="500" as="sourcePoint" />
+            <mxPoint x="320" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Sud0amF9RJ9a7JqX-R7-9" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="DbEJ2VAX_90w69qis_37-1">
+          <mxGeometry x="354" y="585" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8Sud0amF9RJ9a7JqX-R7-10" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="DbEJ2VAX_90w69qis_37-1" source="8Sud0amF9RJ9a7JqX-R7-7" target="8Sud0amF9RJ9a7JqX-R7-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="490" as="sourcePoint" />
+            <mxPoint x="320" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ri8RemUY7V9eEe5dSUm9" name="Task3">
+    <mxGraphModel dx="1422" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="XZz5G8UwN5oOv67KHAu9-0" />
+        <mxCell id="XZz5G8UwN5oOv67KHAu9-1" parent="XZz5G8UwN5oOv67KHAu9-0" />
+        <mxCell id="XZz5G8UwN5oOv67KHAu9-2" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="XZz5G8UwN5oOv67KHAu9-1">
+          <mxGeometry x="330" y="30" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
