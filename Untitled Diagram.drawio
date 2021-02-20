@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-20T16:15:44.061Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36 OPR/74.0.3911.107" etag="vWqCTHQDeQ4zDfNJNNYT" version="14.4.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-02-20T16:35:13.208Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36 OPR/74.0.3911.107" etag="WBVt9PPoM9ALYPH-QHpC" version="14.4.2" type="github" pages="3">
   <diagram id="FHVm75umyY4icCTV_xUv" name="Task 1">
     <mxGraphModel dx="1422" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,21 +22,18 @@
         <mxCell id="8Uf31GzMhTOC1Yrw806x-7" value="Складываем a, b, c" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8Uf31GzMhTOC1Yrw806x-8" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8Uf31GzMhTOC1Yrw806x-7" target="8Uf31GzMhTOC1Yrw806x-9">
+        <mxCell id="8Uf31GzMhTOC1Yrw806x-8" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Uf31GzMhTOC1Yrw806x-7" target="EKhRN3GmKXLsf5pqh2X0-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="440" as="sourcePoint" />
-            <mxPoint x="390" y="440" as="targetPoint" />
+            <mxPoint x="390" y="410" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="8Uf31GzMhTOC1Yrw806x-9" value="Находим произведение a, b, c" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8Uf31GzMhTOC1Yrw806x-10" value="Вывод суммы a, b, c" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="510" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8Uf31GzMhTOC1Yrw806x-11" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Uf31GzMhTOC1Yrw806x-9" target="8Uf31GzMhTOC1Yrw806x-10">
+        <mxCell id="8Uf31GzMhTOC1Yrw806x-11" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="8Uf31GzMhTOC1Yrw806x-10">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="250" y="540" as="sourcePoint" />
+            <mxPoint x="390" y="470" as="sourcePoint" />
             <mxPoint x="300" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -57,6 +54,17 @@
             <mxPoint x="380" y="710" as="sourcePoint" />
             <mxPoint x="430" y="660" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="EKhRN3GmKXLsf5pqh2X0-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EKhRN3GmKXLsf5pqh2X0-1" target="8Uf31GzMhTOC1Yrw806x-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="460" />
+              <mxPoint x="390" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EKhRN3GmKXLsf5pqh2X0-1" value="Находим произведение a, b, c" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="410" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -125,6 +133,45 @@
         <mxCell id="XZz5G8UwN5oOv67KHAu9-1" parent="XZz5G8UwN5oOv67KHAu9-0" />
         <mxCell id="XZz5G8UwN5oOv67KHAu9-2" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="XZz5G8UwN5oOv67KHAu9-1">
           <mxGeometry x="330" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iBSYxGgDee-UoQpqZ5U8-0" value="Ввод координат двух точек" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="XZz5G8UwN5oOv67KHAu9-1">
+          <mxGeometry x="300" y="130" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iBSYxGgDee-UoQpqZ5U8-1" value="Находим коэф. угла наклона" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="XZz5G8UwN5oOv67KHAu9-1">
+          <mxGeometry x="330" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iBSYxGgDee-UoQpqZ5U8-2" value="Выводим уравнение" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="XZz5G8UwN5oOv67KHAu9-1">
+          <mxGeometry x="310" y="320" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iBSYxGgDee-UoQpqZ5U8-3" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="XZz5G8UwN5oOv67KHAu9-1">
+          <mxGeometry x="330" y="430" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iBSYxGgDee-UoQpqZ5U8-4" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="XZz5G8UwN5oOv67KHAu9-1" source="XZz5G8UwN5oOv67KHAu9-2" target="iBSYxGgDee-UoQpqZ5U8-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="130" as="sourcePoint" />
+            <mxPoint x="590" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iBSYxGgDee-UoQpqZ5U8-5" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.439;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="XZz5G8UwN5oOv67KHAu9-1" source="iBSYxGgDee-UoQpqZ5U8-0" target="iBSYxGgDee-UoQpqZ5U8-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="190" as="sourcePoint" />
+            <mxPoint x="380" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iBSYxGgDee-UoQpqZ5U8-6" value="" style="endArrow=classic;html=1;" edge="1" parent="XZz5G8UwN5oOv67KHAu9-1" source="iBSYxGgDee-UoQpqZ5U8-1" target="iBSYxGgDee-UoQpqZ5U8-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="440" as="sourcePoint" />
+            <mxPoint x="470" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iBSYxGgDee-UoQpqZ5U8-7" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="XZz5G8UwN5oOv67KHAu9-1" source="iBSYxGgDee-UoQpqZ5U8-2" target="iBSYxGgDee-UoQpqZ5U8-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="440" as="sourcePoint" />
+            <mxPoint x="470" y="390" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
